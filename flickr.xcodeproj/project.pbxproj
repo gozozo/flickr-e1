@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FDAECDAB2D569DCE00FE2B5C /* flickrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDAA2D569DCE00FE2B5C /* flickrApp.swift */; };
-		FDAECDAD2D569DCE00FE2B5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDAC2D569DCE00FE2B5C /* ContentView.swift */; };
 		FDAECDAF2D569DD100FE2B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAECDAE2D569DD100FE2B5C /* Assets.xcassets */; };
 		FDAECDB22D569DD100FE2B5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAECDB12D569DD100FE2B5C /* Preview Assets.xcassets */; };
 		FDAECDBC2D569DD200FE2B5C /* flickrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDBB2D569DD200FE2B5C /* flickrTests.swift */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		FDAECDA72D569DCE00FE2B5C /* flickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAECDAA2D569DCE00FE2B5C /* flickrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickrApp.swift; sourceTree = "<group>"; };
-		FDAECDAC2D569DCE00FE2B5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDAECDAE2D569DD100FE2B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDAECDB12D569DD100FE2B5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDAECDB72D569DD200FE2B5C /* flickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flickrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +102,6 @@
 			children = (
 				FDAECDD42D569F3C00FE2B5C /* Modules */,
 				FDAECDAA2D569DCE00FE2B5C /* flickrApp.swift */,
-				FDAECDAC2D569DCE00FE2B5C /* ContentView.swift */,
 				FDAECDAE2D569DD100FE2B5C /* Assets.xcassets */,
 				FDAECDB02D569DD100FE2B5C /* Preview Content */,
 			);
@@ -309,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDAECDAD2D569DCE00FE2B5C /* ContentView.swift in Sources */,
 				FDAECDDC2D56A0FD00FE2B5C /* FlickrResponse.swift in Sources */,
 				FDAECDAB2D569DCE00FE2B5C /* flickrApp.swift in Sources */,
 				FDAECDE02D56A19900FE2B5C /* HomeView.swift in Sources */,
