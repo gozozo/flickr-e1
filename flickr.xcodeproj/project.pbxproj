@@ -17,6 +17,8 @@
 		FDAECDDC2D56A0FD00FE2B5C /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDDB2D56A0FD00FE2B5C /* FlickrResponse.swift */; };
 		FDAECDDE2D56A17700FE2B5C /* FlickrViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDDD2D56A17700FE2B5C /* FlickrViewModel.swift */; };
 		FDAECDE02D56A19900FE2B5C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDDF2D56A19900FE2B5C /* HomeView.swift */; };
+		FDAECDE22D56A5F000FE2B5C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDE12D56A5F000FE2B5C /* SearchBarView.swift */; };
+		FDAECDE42D56A66C00FE2B5C /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAECDE32D56A66C00FE2B5C /* ImageGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		FDAECDDB2D56A0FD00FE2B5C /* FlickrResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrResponse.swift; sourceTree = "<group>"; };
 		FDAECDDD2D56A17700FE2B5C /* FlickrViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrViewModel.swift; sourceTree = "<group>"; };
 		FDAECDDF2D56A19900FE2B5C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FDAECDE12D56A5F000FE2B5C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		FDAECDE32D56A66C00FE2B5C /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				FDAECDDF2D56A19900FE2B5C /* HomeView.swift */,
+				FDAECDE12D56A5F000FE2B5C /* SearchBarView.swift */,
+				FDAECDE32D56A66C00FE2B5C /* ImageGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +316,8 @@
 				FDAECDAB2D569DCE00FE2B5C /* flickrApp.swift in Sources */,
 				FDAECDE02D56A19900FE2B5C /* HomeView.swift in Sources */,
 				FDAECDDA2D56A08700FE2B5C /* FlickrImage.swift in Sources */,
+				FDAECDE42D56A66C00FE2B5C /* ImageGridView.swift in Sources */,
+				FDAECDE22D56A5F000FE2B5C /* SearchBarView.swift in Sources */,
 				FDAECDDE2D56A17700FE2B5C /* FlickrViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
