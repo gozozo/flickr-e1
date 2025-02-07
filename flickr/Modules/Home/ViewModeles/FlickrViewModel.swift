@@ -38,7 +38,7 @@ class FlickrViewModel: ObservableObject {
             .decode(type: FlickrResponse.self, decoder: JSONDecoder())
             .map { response in
                 response.items.map { item in
-                    FlickrImage(title: item.title, imageURL: item.media.m)
+                    FlickrImage(title: item.title, imageURL: item.media.m, published: item.published.formattedDate(), author: item.author, description: item.description.htmlToPlainText())
                 }
             }
             .receive(on: DispatchQueue.main)

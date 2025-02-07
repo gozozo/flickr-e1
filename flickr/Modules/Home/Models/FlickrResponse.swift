@@ -14,6 +14,9 @@ struct FlickrResponse: Codable {
 struct FlickrItem: Codable {
     let title: String
     let media: FlickrMedia
+    let published: String
+    let author: String
+    let description: String
 }
 
 struct FlickrMedia: Codable {

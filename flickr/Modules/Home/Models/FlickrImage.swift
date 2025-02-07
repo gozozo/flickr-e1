@@ -12,4 +12,7 @@ struct FlickrImage: Identifiable {
     let id = UUID()
     let title: String
     let imageURL: URL
+    let published: String
+    let author: String
+    let description: String
 }

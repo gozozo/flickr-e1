@@ -21,7 +21,7 @@ struct HomeView: View {
             }
             .navigationTitle("Flickr Search")
         }.sheet(item: $selectedImage) { image in
-            
+            ImageDetailView(viewModel: ImageDetailViewModel(image: image))
          }
     }
 }
